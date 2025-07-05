@@ -144,7 +144,7 @@ git push origin feature/JOAO_SILVA
 
 ## 🔗 Links Úteis
 
-- <a href="https://www.fag.edu.br" target="_blank">Portal da FAG</a>  
+- <a href="https://www.fag.edu.br/engenharia-software" target="_blank">Portal da FAG</a>  
 - <a href="https://martinfowler.com/architecture/" target="_blank">Martin Fowler - Arquitetura de Software</a>  
 - <a href="https://microservices.io/" target="_blank">microservices.io - Padrões para Microsserviços</a>  
 - <a href="https://docs.microsoft.com/en-us/azure/architecture/guide/" target="_blank">Guia de Arquitetura da Microsoft</a>  
