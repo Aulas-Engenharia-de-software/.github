@@ -8,12 +8,13 @@
 
 ## 📚 Sumário
 
-- [Sobre a Disciplina de Arquitetura de Software](#-sobre-a-disciplina-de-arquitetura-de-software)
-- [Regras de Uso do Repositório](#-regras-de-uso-do-repositório)
+- [🏛️ Sobre a Disciplina de Arquitetura de Software](#️-sobre-a-disciplina-de-arquitetura-de-software)
+- [📁 Regras de Uso do Repositório](#-regras-de-uso-do-repositório)
   - [1. Criação de Features](#1-criação-de-features)
   - [2. Organização dos Arquivos](#2-organização-dos-arquivos)
-- [Links Úteis](#-links-úteis)
-- [Contato](#-dúvidas-ou-sugestões)
+- [🔧 Tutorial: Como Subir Seus Projetos Usando Git](#-tutorial-como-subir-seus-projetos-usando-git)
+- [🔗 Links Úteis](#-links-úteis)
+- [📫 Dúvidas ou sugestões](#-dúvidas-ou-sugestões)
 
 ---
 
@@ -29,14 +30,14 @@ Durante a disciplina, estudaremos os seguintes conteúdos:
   - Layered Architecture (Arquitetura em Camadas)  
   - MVC (Model-View-Controller)  
   - MVVM (Model-View-ViewModel)  
-  - CQRS (Command and Query Responsibility Segregation)  
+  - CQRS (Command and Query Responsibility Segregation)
+- Arquiteturas orientadas a domínio:  
+  - Onion Architecture  
+  - Hexagonal Architecture (Ports and Adapters)  
 - Arquiteturas modernas e distribuídas:  
   - Microsserviços  
   - SOA (Service-Oriented Architecture)  
   - Sistemas baseados em eventos  
-- Arquiteturas orientadas a domínio:  
-  - Onion Architecture  
-  - Hexagonal Architecture (Ports and Adapters)  
 - Princípios de design de software:  
   - SOLID  
   - DRY (Don't Repeat Yourself)  
@@ -59,13 +60,13 @@ Durante a disciplina, estudaremos os seguintes conteúdos:
 
 ### 1. Criação de Features
 
-Sempre que for contribuir com um novo recurso, crie uma branch com o seguinte padrão:
+Crie uma branch com o seguinte padrão:
 
 ```
 feature/SEU_NOME_EM_MAIUSCULAS_SEPARADO_POR_UNDERSCORE
 ```
 
-**Exemplo:**
+Exemplo:
 
 ```
 feature/JOAO_SILVA
@@ -73,16 +74,16 @@ feature/JOAO_SILVA
 
 ### 2. Organização dos Arquivos
 
-Dentro da sua branch, crie uma **pasta com o seu nome**, seguindo o padrão:
+Dentro da sua branch, crie uma pasta com seu nome, seguindo o padrão:
 
 ```
-NOME_EM_MAIUSCULAS_SEPARADO_POR_UNDERSCORE
+JOAO_SILVA/
 ```
 
-Todo o código que você desenvolver deve ficar dentro dessa pasta.  
-**O nome da pasta deve ser baseado no seu nome, e não precisa ser igual ao nome da branch.**
+Todo o seu código deve ficar dentro dessa pasta.  
+**O nome da pasta deve seguir o padrão com seu nome em maiúsculas e underscore, mas não precisa ser igual ao nome da branch.**
 
-**Exemplo de estrutura:**
+Exemplo de estrutura:
 
 ```
 feature/JOAO_SILVA/
@@ -92,6 +93,53 @@ feature/JOAO_SILVA/
     └── readme.md
 ```
 
+---
+
+## 🔧 Tutorial: Como Subir Seus Projetos Usando Git
+
+### Passo 1: Clonar o repositório principal
+
+```bash
+git clone https://github.com/Aulas-Engenharia-de-software/NOME_DO_REPOSITORIO.git
+cd NOME_DO_REPOSITORIO
+```
+
+### Passo 2: Criar uma nova branch com seu nome
+
+```bash
+git checkout -b feature/SEU_NOME_EM_MAIUSCULAS_SEPARADO_POR_UNDERSCORE
+```
+
+Exemplo:
+
+```bash
+git checkout -b feature/JOAO_SILVA
+```
+
+### Passo 3: Criar sua pasta de trabalho
+
+```bash
+mkdir JOAO_SILVA
+```
+
+Coloque dentro dela todos os arquivos e atividades que você desenvolver.
+
+### Passo 4: Adicionar, commit e enviar alterações
+
+```bash
+git add .
+git commit -m "Adicionando minhas atividades iniciais"
+git push origin feature/JOAO_SILVA
+```
+
+### Passo 5: Criar um Pull Request (PR)
+
+1. Acesse o repositório no GitHub.
+2. Clique em "Compare & pull request" (aparecerá automaticamente após o push).
+3. Adicione uma descrição do que foi feito.
+4. Clique em **"Create pull request"**.
+5. Envie o Link do Pull Request como comentário particular no classroom da atividade.
+   
 ---
 
 ## 🔗 Links Úteis
@@ -105,7 +153,7 @@ feature/JOAO_SILVA/
 
 ---
 
-## 📫 Dúvidas ou sugestões?
+## 📫 Dúvidas ou sugestões
 
 Entre em contato com o professor pelo e-mail:  
 📧 **lucasmartins@fag.edu.br**
