@@ -144,12 +144,10 @@ git push origin feature/JOAO_SILVA
 
 ## 🔗 Links Úteis
 
-- <a href="https://www.fag.edu.br/engenharia-software" target="_blank">Portal da FAG</a>  
-- <a href="https://martinfowler.com/architecture/" target="_blank">Martin Fowler - Arquitetura de Software</a>  
-- <a href="https://microservices.io/" target="_blank">microservices.io - Padrões para Microsserviços</a>  
-- <a href="https://docs.microsoft.com/en-us/azure/architecture/guide/" target="_blank">Guia de Arquitetura da Microsoft</a>  
-- <a href="https://refactoring.guru/design-patterns" target="_blank">Refactoring Guru - Design Patterns</a>  
-- <a href="https://plantuml.com/pt/" target="_blank">PlantUML - Diagramas Arquiteturais</a>  
+- <a href="https://www.fag.edu.br/engenharia-software" target="_blank">Portal do curso de engenharia de software da FAG</a>  
+- <a href="https://www.devmedia.com.br/arquitetura-de-software-introducao-camadas-e-concorrencia/26124" target="_blank">DevMedia – Arquitetura: introdução, camadas e concorrência</a>
+- <a href="https://blog.grancursosonline.com.br/arquiteturas-de-software-fundamentos/" target="_blank">Gran Cursos Online – Arquiteturas de Software: fundamentos</a>
+- <a href="https://www.softdesign.com.br/blog/desenvolvimento-ou-consultoria-em-arquitetura-de-software-como-escolher/" target="_blank">SoftDesign – Os 10 tipos de arquitetura e melhores práticas</a>
 
 ---
 
